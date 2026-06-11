@@ -7,8 +7,8 @@ import { toast } from "sonner";
 import hero from "@/assets/hero-bottles.jpg";
 import { products, categories, type Category, type Product } from "@/app/data/products";
 import { useCart } from "@/lib/cart";
-import { CTABanner, PageHero } from "../about/page";
 import Image from "next/image";
+import { CTABanner, PageHero } from "@/components/site/PageShared";
 
 const CATS: ("All" | Category)[] = ["All", ...categories.map((c) => c.name)];
 
